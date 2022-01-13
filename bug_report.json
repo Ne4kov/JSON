@@ -1,1 +1,23 @@
+{
+   "bug_id":1,
+   "project":"application_1",
+   "title":"invoice cannot be printed by the user",
+   "summary":"invoice cannot be printed by the user in application_1 when the user presses 'Print' button on main panel",
+   "environment":{
+      "device":"HomePC",
+      "OS":"Windows_10",
+      "version":"12SRE12"
+   },
+   "steps_to_reproduce":{
+      "1":"open 'application_1'",
+      "2":"press 'create_invoice' button",
+      "3":"press 'print_invoice' button"
+   },
+   "attachment":"video",
+   "actual_result":"nothing happens when button is pressed",
+   "expected_result":"invoice_printed",
+   "priority":"critical",
+   "assignee":"Igor",
+   "reporter":"Igor"
+}
 
